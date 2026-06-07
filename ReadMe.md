@@ -4,6 +4,16 @@ A SQL data-lineage analysis system that traces table- and column-level dependenc
 
 Supported dialects: **T-SQL (SQL Server)**, **PostgreSQL**, **Oracle**, **Teradata**, and **Snowflake**.
 
+## Screenshots
+
+![Statement lineage graph across multiple tables](photos/Picture%201.png)
+
+![Column-level lineage between source and target tables](photos/Picture%202.png)
+
+![Lineage view linking source tables to a target](photos/Picture%203.png)
+
+![Executable components view with procedure call graph](photos/Picture%204.png)
+
 ## Roadmap
 
 Planned and in-progress work:
