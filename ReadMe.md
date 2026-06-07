@@ -4,6 +4,17 @@ A SQL data-lineage analysis system that traces table- and column-level dependenc
 
 Supported dialects: **T-SQL (SQL Server)**, **PostgreSQL**, **Oracle**, **Teradata**, and **Snowflake**.
 
+## Roadmap
+
+Planned and in-progress work:
+
+- [ ] **Broader dialect support** — extend coverage to additional engines (for example MySQL/MariaDB, BigQuery, Redshift, Databricks/Spark SQL, and DuckDB) using the existing connector pattern.
+- [ ] **Stronger static analysis** — improve the parser-based pipeline with more accurate column-level resolution, deeper CTE and subquery handling, better dynamic-SQL inference, and richer transform classification, reducing reliance on best-effort fallbacks.
+- [ ] **LLM-assisted static analysis** — use an LLM to complement traditional parsing where static parsing is ambiguous: resolving dynamic SQL, inferring lineage through complex expressions, and validating or enriching parser output rather than replacing it.
+- [ ] **Improved stored-procedure analysis** — more reliable extraction of reads/writes, control flow, and call graphs across procedures, functions, and triggers; better handling of nested calls, parameters, and cross-object dependencies.
+
+Contributions toward any of these are welcome.
+
 ## Features
 
 - Two analysis modes: upload SQL files, or connect directly to a database for metadata-based analysis.
