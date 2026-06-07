@@ -6,13 +6,17 @@ Supported dialects: **T-SQL (SQL Server)**, **PostgreSQL**, **Oracle**, **Terada
 
 ## Screenshots
 
-![Statement lineage graph across multiple tables](photos/Picture%201.png)
-
-![Column-level lineage between source and target tables](photos/Picture%202.png)
-
-![Lineage view linking source tables to a target](photos/Picture%203.png)
-
-![Executable components view with procedure call graph](photos/Picture%204.png)
+<table>
+  <tr>
+    <td><img src="photos/Picture%201.png" alt="Statement lineage graph across multiple tables" /></td>
+    <td><img src="photos/Picture%202.png" alt="Column-level lineage between source and target tables" /></td>
+    <td><img src="photos/Picture%203.png" alt="Lineage view linking source tables to a target" /></td>
+  </tr>
+  <tr>
+    <td><img src="photos/Picture%204.png" alt="Executable components view with procedure call graph" /></td>
+    <td><img src="photos/Picture%205.png" alt="Multi-hop column lineage from source tables through to a target metric" /></td>
+  </tr>
+</table>
 
 ## Roadmap
 
